@@ -537,6 +537,7 @@ concepts including: title, creator, copyright, etc.</li>
 	
 </div>
 
+<!--
 <div class="slide">
 	<h1>Text with Flavor and Datatype</h1>
 	
@@ -578,6 +579,7 @@ concepts including: title, creator, copyright, etc.</li>
     <div align="center" class="incremental"><img src="images/creator-and-title-and-date-graph.png" width="85%" /></div>
 
 </div>
+-->
 
 <div class="slide">
 	<h1>A Few Articles</h1>
@@ -815,6 +817,7 @@ concepts including: title, creator, copyright, etc.</li>
     </div>
 </div>
 
+<!--
 <div class="slide">
     <h1>Connecting the Comments</h1>
     
@@ -889,179 +892,7 @@ concepts including: title, creator, copyright, etc.</li>
     
 </div>
 
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-
-<pre style="font-size:1em;">
-&lt;span&gt;Ivan Herman&lt;/span&gt;
-Email: &lt;a href="mailto:ivan@w3.org"&gt;ivan@w3.org&lt;/a&gt;
-(&lt;span&gt;5ac8032d5f6012aa1775ea2f63e1676bafd5e80b&lt;/span&gt;)
-
-Phone numbers:
-phone: &lt;a href="tel:+31-20-5924163"&gt;+31-20-5924163&lt;/a&gt;
-mobile: &lt;a href="tel:+31-641044153"&gt;+31-641044153&lt;/a&gt;
-fax: +31-20-5924312
-&lt;a href="/pgpkey.html"&gt;GnuPGP key&lt;/a&gt;
-
-Misc:
-I am often on
-    freenode, (acc. name &lt;span&gt;IvanHerman&lt;/span&gt;
-
-...
-</pre>
-
-</div>
-
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-
-<pre style="font-size:1em;">
-&lt;span <span class="highlight">property="foaf:name"</span>&gt;<span class="greenhighlight">Ivan Herman</span>&lt;/span&gt;
-Email: &lt;a href="mailto:ivan@w3.org"&gt;ivan@w3.org&lt;/a&gt;
-(&lt;span&gt;5ac8032d5f6012aa1775ea2f63e1676bafd5e80b&lt;/span&gt;)
-
-Phone numbers:
-phone: &lt;a href="tel:+31-20-5924163"&gt;+31-20-5924163&lt;/a&gt;
-mobile: &lt;a href="tel:+31-641044153"&gt;+31-641044153&lt;/a&gt;
-fax: +31-20-5924312
-&lt;a href="/pgpkey.html"&gt;GnuPGP key&lt;/a&gt;
-
-Misc:
-I am often on
-    freenode, (acc. name &lt;span&gt;IvanHerman&lt;/span&gt;
-
-...
-</pre>
-
-</div>
-
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-
-<pre style="font-size:1em;">
-&lt;span <span class="highlight">property="foaf:name"</span>&gt;<span class="greenhighlight">Ivan Herman</span>&lt;/span&gt;
-Email: &lt;a <span class="highlight">rel="foaf:mbox"</span> href="<span class="greenhighlight">mailto:ivan@w3.org</span>"&gt;ivan@w3.org&lt;/a&gt;
-(&lt;span&gt;5ac8032d5f6012aa1775ea2f63e1676bafd5e80b&lt;/span&gt;)
-
-Phone numbers:
-phone: &lt;a href="tel:+31-20-5924163"&gt;+31-20-5924163&lt;/a&gt;
-mobile: &lt;a href="tel:+31-641044153"&gt;+31-641044153&lt;/a&gt;
-fax: +31-20-5924312
-&lt;a href="/pgpkey.html"&gt;GnuPGP key&lt;/a&gt;
-
-Misc:
-I am often on
-    freenode, (acc. name &lt;span&gt;IvanHerman&lt;/span&gt;
-
-...
-</pre>
-
-</div>
-
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-
-<pre style="font-size:1em;">
-&lt;span <span class="highlight">property="foaf:name"</span>&gt;<span class="greenhighlight">Ivan Herman</span>&lt;/span&gt;
-Email: &lt;a <span class="highlight">rel="foaf:mbox"</span> href="<span class="greenhighlight">mailto:ivan@w3.org</span>"&gt;ivan@w3.org&lt;/a&gt;
-(&lt;span <span class="highlight">property="foaf:mbox_sha1sum"</span>&gt;<span class="greenhighlight">5ac8032d5f6012aa1775ea2f63e1676bafd5e80b</span>&lt;/span&gt;)
-
-Phone numbers:
-phone: &lt;a href="tel:+31-20-5924163"&gt;+31-20-5924163&lt;/a&gt;
-mobile: &lt;a href="tel:+31-641044153"&gt;+31-641044153&lt;/a&gt;
-fax: +31-20-5924312
-&lt;a href="/pgpkey.html"&gt;GnuPGP key&lt;/a&gt;
-
-Misc:
-I am often on
-    freenode, (acc. name &lt;span&gt;IvanHerman&lt;/span&gt;
-
-...
-</pre>
-
-</div>
-
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-
-<pre style="font-size:1em;">
-&lt;span <span class="highlight">property="foaf:name"</span>&gt;<span class="greenhighlight">Ivan Herman</span>&lt;/span&gt;
-Email: &lt;a <span class="highlight">rel="foaf:mbox"</span> href="<span class="greenhighlight">mailto:ivan@w3.org</span>"&gt;ivan@w3.org&lt;/a&gt;
-(&lt;span <span class="highlight">property="foaf:mbox_sha1sum"</span>&gt;<span class="greenhighlight">5ac8032d5f6012aa1775ea2f63e1676bafd5e80b</span>&lt;/span&gt;)
-
-Phone numbers:
-phone: &lt;a <span class="highlight">rel="foaf:phone</span> href="<span class="greenhighlight">tel:+31-20-5924163</span>"&gt;+31-20-5924163&lt;/a&gt;
-mobile: &lt;a <span class="highlight">rel="foaf:phone</span> href="<span class="greenhighlight">tel:+31-641044153</span>"&gt;+31-641044153&lt;/a&gt;
-fax: +31-20-5924312
-&lt;a href="/pgpkey.html"&gt;GnuPGP key&lt;/a&gt;
-
-Misc:
-I am often on
-    freenode, (acc. name &lt;span&gt;IvanHerman&lt;/span&gt;
-
-...
-</pre>
-
-</div>
-
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-
-<pre style="font-size:1em;">
-&lt;span <span class="highlight">property="foaf:name"</span>&gt;<span class="greenhighlight">Ivan Herman</span>&lt;/span&gt;
-Email: &lt;a <span class="highlight">rel="foaf:mbox"</span> href="<span class="greenhighlight">mailto:ivan@w3.org</span>"&gt;ivan@w3.org&lt;/a&gt;
-(&lt;span <span class="highlight">property="foaf:mbox_sha1sum"</span>&gt;<span class="greenhighlight">5ac8032d5f6012aa1775ea2f63e1676bafd5e80b</span>&lt;/span&gt;)
-
-Phone numbers:
-phone: &lt;a <span class="highlight">rel="foaf:phone</span> href="<span class="greenhighlight">tel:+31-20-5924163</span>"&gt;+31-20-5924163&lt;/a&gt;
-mobile: &lt;a <span class="highlight">rel="foaf:phone</span> href="<span class="greenhighlight">tel:+31-641044153</span>"&gt;+31-641044153&lt;/a&gt;
-fax: +31-20-5924312
-&lt;a <span class="highlight">rel="wot:pubkeyAddress"</span> href="<span class="greenhighlight">/pgpkey.html</span>"&gt;GnuPGP key&lt;/a&gt;
-
-Misc:
-I am often on
-    freenode, (acc. name &lt;span&gt;IvanHerman&lt;/span&gt;
-
-...
-</pre>
-
-</div>
-
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-
-<pre style="font-size:1em;">
-&lt;span <span class="highlight">property="foaf:name"</span>&gt;<span class="greenhighlight">Ivan Herman</span>&lt;/span&gt;
-Email: &lt;a <span class="highlight">rel="foaf:mbox"</span> href="<span class="greenhighlight">mailto:ivan@w3.org</span>"&gt;ivan@w3.org&lt;/a&gt;
-(&lt;span <span class="highlight">property="foaf:mbox_sha1sum"</span>&gt;<span class="greenhighlight">5ac8032d5f6012aa1775ea2f63e1676bafd5e80b</span>&lt;/span&gt;)
-
-Phone numbers:
-phone: &lt;a <span class="highlight">rel="foaf:phone</span> href="<span class="greenhighlight">tel:+31-20-5924163</span>"&gt;+31-20-5924163&lt;/a&gt;
-mobile: &lt;a <span class="highlight">rel="foaf:phone</span> href="<span class="greenhighlight">tel:+31-641044153</span>"&gt;+31-641044153&lt;/a&gt;
-fax: +31-20-5924312
-&lt;a <span class="highlight">rel="wot:pubkeyAddress"</span> href="<span class="greenhighlight">/pgpkey.html</span>"&gt;GnuPGP key&lt;/a&gt;
-
-Misc:
-I am often on
-&lt;span <span class="highlight">rel="foaf:holdsAccount"</span>&gt;
-  &lt;span <span class="greenhighlight">about="http://www.freenode.net/irc_servers.shtml"</span>
-        <span class="highlight">typeof="foaf:OnlineAccount foaf:OnlineChatAccount"</span>&gt;
-    freenode, (acc. name &lt;span <span class="highlight">property="foaf:accountName"</span>&gt;<span class="greenhighlight">IvanHerman</span>&lt;/span&gt;
-  &lt;/span&gt;
-&lt;/span&gt; 
-...
-</pre>
-
-</div>
-
-
-<div class="slide">
-    <h1>A Second Complete Example: FOAF</h1>
-    
-    <div align="center">
-    <img src="images/foaf-graph.png" width="95%" />
-    </div>
-</div>
+-->
 
 <div class="slide">
     <h1>Adding Fields: Digg</h1>
@@ -1266,6 +1097,7 @@ I am often on
     </div>
 </div>
 
+<!--
 <div class="slide">
     <h1>RDF: What is it?</h1>
     
@@ -1395,90 +1227,9 @@ and make as much sense of the web data as possible</h3>
         <img src="images/sparql-query.png" width="25%" />
     </div>
 </div>
+-->
 
-<div class>
-
-<div class="slide">
-    <h1>Some vocabularies: Dublin Core</h1>
-    
-    <p>&nbsp;</p>
-    <h3 align="center"><tt>http://dublincore.org/documents/dcmi-terms/</tt></h3>
-    
-    <ul>
-        <li><tt>creator</tt></li>
-        <li><tt>date</tt></li>
-        <li><tt>license</tt></li>
-        <li><tt>subject</tt></li>
-        <li><tt>identifier</tt>: some unique identifier (URL?)</li>
-        <li><tt>type</tt>: type of data, with <tt>dcmiterms</tt> values</li>
-    </ul>
-</div>
-
-<div class="slide">
-    <h1>Some vocabularies: FOAF</h1>
-
-    <p>&nbsp;</p>
-    <h3 align="center"><tt>http://xmlns.com/foaf/0.1/</tt></h3>
-    
-    <ul>
-        <li><tt>Person</tt></li>
-        <li><tt>name</tt></li>
-        <li><tt>nick</tt></li>
-        <li><tt>title</tt></li>
-        <li><tt>homepage</tt></li>
-        <li><tt>mbox</tt></li>
-        <li><tt>img</tt></li>
-        <li><tt>weblog</tt></li>
-        <li><tt>knows</tt></li>
-    </ul>
-    
-</div>
-
-<div class="slide">
-    <h1>Some vocabularies: Creative Commons</h1>
-
-    <p>&nbsp;</p>
-    <h3 align="center"><tt>http://creativecommons.org/ns#</tt></h3>
-    
-    <ul>
-        <li><tt>License</tt>, <tt>Jurisdiction</tt>, <tt>Permission</tt>, <tt>Prohibition</tt>, <tt>Requirement</tt></li>
-        <li><tt>permits</tt>, <tt>prohibits</tt>, <tt>requires</tt></li>
-    </ul>
-   <p>&nbsp;</p> 
-    <ul>
-        <li><tt>Work</tt></li>
-        <li><tt>license</tt>, <tt>morePermissions</tt>, <tt>attributionName</tt>, <tt>attributionURL</tt>, <tt>jurisdiction</tt>, <tt>legalcode</tt></li>
-    </ul>
-    
-    <div class="incremental">
-    <h3 align="center">ccREL: <a href="http://creativecommons.org/ccrel">http://creativecommons.org/ccrel</a></h3></div>
-</div>
-
-<div class="slide">
-    <h1>Status of RDFa</h1>
-    
-    <ul>
-        <li>early work in the SWBP &amp; XHTML Working Groups</li>
-        <li>current work in SWD &amp; XHTML2 Working Groups</li>
-        <li>In Last Call at W3C</li>
-        <li>Companies doing RDFa: Digg, Creative Commons, Yahoo!...</li>
-        <li>Tons of Implementations: ARC 2 (PHP), Operator (JavaScript), librdfa/Fuzzbot (C / Firefox), Semantic Radar (Firefox), RDFa Distiller (Python), RDFa Bookmarklets (JavaScript), XSTL, RDFa on Rails (Ruby/Rails), Cognition (Perl), ...
-        </li>
-        <li><a href="http://rdfa.info">http://rdfa.info</a></li>
-    </ul>
-    
-    <h2 class="incremental">Now is the perfect time to build RDFa into your site</h2>
-</div>
-
-<div class="slide">
-    <h1>Demo Time</h1>
-    
-    <h2 align="center">
-        <br /><br />
-        Let's Write some RDFa!
-        </h2>
-</div>
-
+<!--
 <div class="slide">
     <h1>Loosely Coupled Data</h1>
     
@@ -1488,6 +1239,7 @@ and make as much sense of the web data as possible</h3>
     <img src="images/share-buttons.png" width="500" />
     </div>
 </div>
+-->
 
 <div class="slide">
     <h1>(RDFa) Conclusion</h1>
