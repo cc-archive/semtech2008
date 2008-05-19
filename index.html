@@ -4,59 +4,59 @@
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-  <meta name="generator" content=
-  "HTML Tidy for Linux/x86 (vers 1 September 2005), see www.w3.org" />
 
     <title>ccREL / SemWeb @ CC - SemTech2008</title>
 
-  <meta name="copyright" 
-	content="Copyright &copy; 2008, Creative Commons; licensed to the public under Attribution 3.0 Unported" />
-  <link rel="stylesheet" type="text/css" 
-	media="screen, projection, print" 
-	href="resources/yui-reset-fonts-grids.css" />
-  <link rel="stylesheet" type="text/css" 
-	media="screen, projection, print" href="Slidy/slidy.css" />
-  <script src="Slidy/slidy.js" charset="utf-8" type=
-	  "text/javascript">
-</script>
-  <link rel="stylesheet" type="text/css" media=
-  "screen, projection, print" href="resources/salsa.css" />
+    <meta name="copyright" 
+	  content="Copyright &copy; 2008, Creative Commons; licensed to the public under Attribution 3.0 Unported" />
+    <link rel="stylesheet" type="text/css" 
+	  media="screen, projection, print" 
+	  href="resources/yui-reset-fonts-grids.css" />
+    <link rel="stylesheet" type="text/css" 
+	  media="screen, projection, print" href="Slidy/slidy.css" />
+    <script src="Slidy/slidy.js" charset="utf-8" type="text/javascript">
+    </script>
+    <link rel="stylesheet" type="text/css" 
+	  media="screen, projection, print" href="resources/salsa.css"
+	  /> 
 </head>
 
 <body>
   <div class="background">
     <div class="footer">
-      <img src="images/cc.logo.png" height="30" alt=
-      "Creative Commons logo" /> <a href=
-      "http://creativecommons.org/licenses/by/3.0/"><img src=
-      "images/by.png" id="license-img" alt=
-      "Attribution 3.0 Unported" /></a>
+      <img src="images/cc.logo.png" height="30" 
+	   alt="Creative Commons logo" /> 
+      <a href="http://creativecommons.org/licenses/by/3.0/">
+	<img src="images/by.png" id="license-img" 
+	     alt="Attribution 3.0 Unported" />
+      </a>
     </div>
   </div>
 
   <div class="slide cover butter">
     <div class="center-container">
       <div class="center-content">
-<h1>An Introduction to ccREL, and <br/>
-  The Use of Semantic Technology at Creative Commons</h1>
-<p style="padding-left: 30px; color: white;">
-  <a href="http://yergler.net/">Nathan R. Yergler</a>, Creative Commons<br/>
-  <a href="http://ben.adida.net/">Ben Adida</a>, Creative Commons 
-</p>
+	<h1>An Introduction to ccREL, and <br/>
+	  The Use of Semantic Technology at Creative Commons</h1>
+	<p style="padding-left: 30px;">
+	  <a href="http://yergler.net/">Nathan R. Yergler</a>, 
+	  Creative Commons<br/>
+	  <a href="http://ben.adida.net/">Ben Adida</a>, 
+	  Creative Commons 
+	</p>
       </div>
     </div>
   </div>
 
-<div class="slide">
-	<h1>Agenda</h1>
-	
-	<ul>
-	  <li>ccREL</li>
-	  <li>Encoding with RDFa</li>
-	  <li>Semantic Infrastructure @ CC</li>
-	  <li>Semantic MediaWiki</li>
-	</ul>
-</div>
+  <div class="slide">
+    <h1>Agenda</h1>
+    
+    <ul>
+      <li>ccREL</li>
+      <li>Expressing ccREL with RDFa</li>
+      <li>Semantic Infrastructure @ CC</li>
+    </ul>
+  </div>
 
   <div class="slide plum nofooter">
     <div class="center-container">
@@ -80,12 +80,11 @@
   </div>
 
   <div class="slide plum nofooter center-text">
-    <img src="images/deed.png" width="95%" alt="CC License Deed" />
+    <img src="images/deed.png" alt="CC License Deed" />
   </div>
 
   <div class="slide plum nofooter center-text">
-    <img src="images/legalcode.png" width="95%" alt=
-    "CC License Legal Code" />
+    <img src="images/legalcode.png" alt="CC License Legal Code" />
   </div>
 
   <div class="slide plum">
@@ -1474,15 +1473,15 @@ and make as much sense of the web data as possible</h3>
     
 </div>
 
-<div class="slide">
+<div class="slide butter">
   <div class="center-container">
     <div class="center-content">
-      <h1>Semantic Infrastructure</h1>
+      <h1>Semantic Infrastructure @ CC</h1>
     </div>
   </div>
 </div>
 
-<div class="slide">
+<div class="slide sky-blue">
   <h1>Hypocrisy?</h1>
 
   <ul>
@@ -1491,9 +1490,9 @@ and make as much sense of the web data as possible</h3>
   </ul>
 </div>
 
-<div class="slide">
+<div class="slide sky-blue">
   
-  <h1>The Present</h1>
+  <h1>The Present (Q1 2008)</h1>
   <a href="http://www.flickr.com/photos/nathan_y/2347987536/" 
      title="The Present by Nathan Y, on Flickr">
     <img src="images/the_present.jpg" align="center"
@@ -1502,8 +1501,121 @@ and make as much sense of the web data as possible</h3>
 
 </div>
 
-<div class="slide">
-  <h1>Semantic MediaWiki</h1>
+<div class="slide scarlet-red">
+  <div class="center-container">
+    <div class="center-content">
+      <h1>The Problems</h1>
+    </div>
+  </div>
+</div>
+
+<div class="slide scarlet-red">
+  <h1>Redundant License Metadata</h1>
+
+  <ul>
+    <li>XML to drive API</li>
+    <li>RDF to serve to other consumers</li>
+    <li>Comphrensive list of licenses: which one?</li>
+  </ul>
+
+</div>
+
+<div class="slide scarlet-red">
+  <h1>Multiple Locations for "Engine" Information</h1>
+
+  <ul>
+    <li>XSLT rules</li>
+    <li>XML to drive "questions"</li>
+    <li>Jurisdiction information &mdash; both a question and a
+      license property</li>
+  </ul>
+</div>
+
+<div class="slide scarlet-red">
+  <h1>Custom Formats, not so great</h1>
+
+  <ul>
+    <li>API clients become CC-specific</li>
+    <li>How do I format my "answers"?</li>
+    <li>How can I verify that I'm getting the <em>correct</em>
+      answer?</li>
+  </ul>
+
+</div>
+
+<div class="slide chameleon">
+  <h1>Solutions</h1>
+
+  <ul>
+    <li>RDF as the canonical source of information</li>
+    <li>A single wrapper library for our services</li>
+    <li>SPARQL queries that can be used to query for specific types
+      of information</li>
+  </ul>
+
+</div>
+
+<div class="slide sky-blue">
+  
+  <h1>The Glorious Future</h1>
+  <a href="http://www.flickr.com/photos/nathan_y/2347986388/" 
+     title="The Glorious Future by Nathan Y, on Flickr">
+    <img src="images/the_future.jpg"
+    width="1024" height="768" alt="The Glorious Future" />
+  </a>
+
+</div>
+
+<div class="slide plum">
+  <h1>The Information Stack</h1>
+
+  <ul>
+    <li>Two wikis: public and internal</li>
+    <li>Lots of information in both</li>
+    <li>Search and re-purposing sucked</li>
+  </ul>
+</div>
+
+<div class="slide scarlet-red">
+  <h1>Content Directories</h1>
+
+  <img src="images/curators-old.png"
+       alt="Single page content curators" />
+</div>
+
+<div class="slide plum">
+  <h1>[Semantic] Content Directories</h1>
+
+  <img src="images/curators-new.png"
+       alt="SMW content curators listing." />
+</div>
+
+<div class="slide plum">
+  <h1>[Semantic] Content Directories</h1>
+
+  <img src="images/ccwiki-flickr.png"
+       alt="SMW properties, factbox for Flickr." />
+</div>
+
+<div class="slide plum">
+  <h1>[Semantic] Content Directories</h1>
+
+  <img src="images/ccwiki-browse-format.png"
+       alt="SMW properties: browse by format." />
+</div>
+
+<div class="slide plum">
+  <h1>Benefits</h1>
+
+  <ul>
+    <li>Content about each subject can be stored in the article (as
+      opposed to spread across different subject area articles)</li>
+    <li>Facts and summaries can be queried and included in many
+      different locations</li>
+    <li>We can repurpose via RDF, XML and CSV export</li>
+    <li>SPARQL endpoint available</li>
+  </ul>
+
 </div>
 
 <div class="slide aluminum">
