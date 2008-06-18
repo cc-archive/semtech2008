@@ -68,7 +68,7 @@
     <div class="center-container">
       <div class="center-content">
         <pre>
-<code>
+<code style="font-size: 1.4em;">
 &lt;rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
          xmlns="http://www.w3.org/1999/xhtml/vocab#"&gt;
     &lt;rdf:Description rdf:about="http://www.lessig.org/blog/"&gt;
@@ -84,10 +84,10 @@
   <div class="slide plum">
     <h1>Why Machines?</h1>
 
-    <p>Programs should be able to answer simple questions about
-    licensed works.</p>
+    <p style="font-size: 1.4em;">Programs should be able to answer simple questions about
+    licensed works.</p><br /><br />
 
-    <ul class="incremental">
+    <ul class="incremental" style="font-size: 1.4em;">
       <li>What is the work's license?</li>
 
       <li>Commercial use?</li>
@@ -101,14 +101,8 @@
   <div class="slide scarlet-red">
     <div class="center-container">
       <div class="center-content">
-        <h1>Previous Recommendation</h1>
-      </div>
-    </div>
-  </div>
-
-  <div class="slide scarlet-red">
-    <div class="center-container">
-      <div class="center-content">
+        <h1 style="font-size: 3em;">Previous Recommendation</h1>
+<br /><br /><br />
         <h1 style="font-family: monospace;">&lt;!--<br />
         &nbsp;&nbsp;&nbsp;metadata<br />
         --&gt;</h1>
@@ -119,7 +113,7 @@
   <div class="slide scarlet-red">
     <h1>Pervasive Problems</h1>
     
-    <ul>
+    <ul style="font-size: 1.4em;">
       <li>Opaque to parsers</li>
       <li>Opaque to humans</li>
       <li>Easy to screw up</li>
@@ -163,7 +157,7 @@
   <div class="slide sky-blue">
     <h1>Work Properties</h1>
 
-    <ul>
+    <ul style="font-size: 1.4em;">
       <li>title</li>
 
       <li>work license</li>
@@ -181,7 +175,7 @@
   <div class="slide sky-blue">
     <h1>License Properties</h1>
 
-    <ul>
+    <ul style="font-size: 1.4em;">
       <li>permits</li>
 
       <li>requires</li>
@@ -199,33 +193,26 @@
   </div>
 
   <div class="slide chocolate">
-    <div class="center-container">
-      <div class="center-content">
-        <h1>Easier to Publish</h1>
-      </div>
-    </div>
-  </div>
-
-
-  <div class="slide chocolate">
         <h1>Principles for Publishing ccREL in HTML</h1>
 
-        <ul class="incremental">
-          <li>independence + extensibility</li>
+        <ul class="incremental" style="font-size:1.4em;">
+          <li>Visual Correspondence</li>
 
           <li>Don't Repeat Yourself (DRY)</li>
 
-          <li>Visual Locality</li>
-
           <li>Remix Friendliness</li>
+
+          <li>Extensibility &amp; Modularity</li>
         </ul>
 
   </div>
 
-  <div class="slide chocolate">
+  <div class="slide">
     <div class="center-container">
       <div class="center-content">
-        <h1>RDFa</h1>
+          <div align="center">
+        <h1 style="font-size:3em;">RDFa</h1>
+        </div>
       </div>
     </div>
   </div>
@@ -256,20 +243,6 @@
 -->
 
 <div class="slide">
-	<h1>Chasm Between Human and Data Webs [Semweb]</h1>
-	
-	<div align="center">
-	    <img src="images/foaf-web.png" width="45%" />
-	    <img src="images/foaf-rdf.png" width="45%" />
-    </div>
-    
-    <h2 align="center">
-        2 published documents, 2 document types
-    </h2>
-
-</div>
-
-<div class="slide">
 	<h1>So much data on the web.... [Social Network]</h1>
 	
 	<div align="center">
@@ -294,11 +267,25 @@
 </div>
 
 <div class="slide">
-	<h1>So much data on the web.... [SemTech2008 Program]</h1>
+	<h1>So much data on the web.... [CC Tech Summit Program]</h1>
 	
 	<div align="center">
-	    <img src="images/semtech2008-program.png" width="80%" />
+	    <img src="images/cctechsummit-program.png" width="80%" />
     </div>
+</div>
+
+<div class="slide">
+	<h1>Chasm Between Human and Data Webs [Semweb]</h1>
+	
+	<div align="center">
+	    <img src="images/foaf-web.png" width="45%" />
+	    <img src="images/foaf-rdf.png" width="45%" />
+    </div>
+    
+    <h2 align="center">
+        2 published documents, 2 document types
+    </h2>
+
 </div>
 
 <div class="slide">
@@ -308,12 +295,12 @@
         <img src="images/browser-rendered.png" width="400" />
         <img src="images/browser-meaning.png" width="400" class="incremental" />
         
-        <h3 class="incremental">A significant gap between what browsers see and what humans see</h3>
+        <h2 style="font-size: 1.4em;" class="incremental">A significant gap between what browsers see and what humans see</h2>
     </div>
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [Correspondence]</h1>
+	<h1>Visual Correspondence</h1>
     
     <div align="center">
         
@@ -322,7 +309,7 @@
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [Correspondence]</h1>
+	<h1>Visual Correspondence</h1>
 
     <div align="center">
         <img src="images/gene.png" width="85%" />
@@ -330,7 +317,7 @@
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [A Single DRY Format]</h1>
+	<h1>Don't Repeat Yourself</h1>
 
     <h2>Change the visual, change the machine-readable</h2>
     
@@ -356,7 +343,7 @@ distributed under a
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [A Single DRY Format]</h1>
+	<h1>Remix Friendliness</h1>
 
     <div align="center">
         <img src="images/cc-html-copy-and-paste.png" width="65%" />
@@ -364,7 +351,7 @@ distributed under a
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [A Single DRY Format]</h1>
+	<h1>Remix Friendliness</h1>
 
     <div align="center">
         <img src="images/igoogle.png" width="90%" />
@@ -372,41 +359,79 @@ distributed under a
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [Extensibility &amp; Modularity]</h1>
+	<h1>Extensibility &amp; Modularity</h1>
 
     <h3 align="center">The Flickr Photostream</h3>
     <div align="center">
-        <img src="images/flickr.png" width="60%" />
+        <img src="images/flickr.png" width="90%" />
     </div>
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [Extensibility &amp; Modularity]</h1>
+	<h1>Extensibility &amp; Modularity</h1>
 
     <h3 align="center">Flickr used by a Newsreader</h3>
     <div align="center">
-        <img src="images/flickr-feed.png" width="60%" />
+        <img src="images/flickr-feed.png" width="90%" />
     </div>
 </div>
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [Extensibility &amp; Modularity]</h1>
+	<h1>Extensibility &amp; Modularity</h1>
 
     <h3 align="center">Flickr used by a Digital Photo Frame</h3>
     <div align="center">
-        <img src="images/flickr-photoframe.png" width="60%" />
+        <img src="images/flickr-photoframe.png" width="90%" />
     </div>
 </div>
 
 
 <div class="slide">
-	<h1>Bridging the Human and Data Webs [Extensibility &amp; Modularity]</h1>
+	<h1>Extensibility &amp; Modularity</h1>
 
     <h3 align="center">Flickr used by an Asset Management Program</h3>
     <div align="center">
-        <img src="images/flickr-asset-management.png" width="60%" />
+        <img src="images/flickr-asset-management.png" width="90%" />
     </div>
 </div>
+
+<div class="slide">
+	<h1>Extensibility &amp; Modularity for CC Apps</h1>
+
+    <div align="center" class="incremental">
+        <img valign="bottom" src="images/cc-extensibility-flickr.png" width="30%" />
+        <img valign="bottom" src="images/cc-extensibility-flickr-rights.png" width="30%" />
+    </div>
+</div>
+
+<div class="slide">
+	<h1>Extensibility &amp; Modularity for CC Apps</h1>
+
+    <div align="center">
+        <img valign="bottom" src="images/cc-extensibility-magnatune.png" width="50%" />
+        <img valign="bottom" src="images/cc-extensibility-magnatune-rights.png" width="15%" />
+    </div>
+</div>
+
+<div class="slide">
+	<h1>Extensibility &amp; Modularity for CC Apps</h1>
+
+    <div align="center">
+        <img valign="bottom" src="images/cc-extensibility-blip.png" width="50%" /><br />
+        <img valign="bottom" src="images/cc-extensibility-blip-rights.png" width="80%" />
+    </div>
+</div>
+
+<!--<div class="slide">
+    <h1></h1>
+
+    <br /><br /><br />
+    <br /><br /><br />
+    <br /><br /><br />
+    <div align="center">
+    <h2 style="font-size: 3em;">How? RDFa.</h2>
+    </div>
+</div>-->
 
 <div class="slide">
 	<h1>A Link with Flavor</h1>
@@ -459,7 +484,7 @@ distributed under a
 &lt;h3 <span style="color: red;">property="dc:creator"</span>&gt;Alice&lt;/h3&gt;
 </pre>
 
-    <ul class="incremental">
+    <ul class="incremental" style="font-size: 1.4em;">
         <li> why <tt class="highlight">dc:title</tt>, why not just <tt class="highlight">title</tt>?</li>
         <li> which meaning of "title"? Article title, job title, real estate title?</li>
         <li> <tt>license</tt> is a reserved HTML keyword, but <tt>title</tt> is not.</li>
@@ -640,13 +665,15 @@ concepts including: title, creator, copyright, etc.</li>
     </div>
 </div>
 
-<div class="slide">
+<!--
+    <div class="slide">
     <h1>The power of <tt>about</tt></h1>
     
     <div align="center">
     <img src="images/ben-with-annotations.png" width="50%" />
     </div>
 </div>
+-->
 
 <!--
 <div class="slide">
@@ -998,12 +1025,17 @@ and make as much sense of the web data as possible</h3>
 <div class="slide">
     <h1>Conclusion</h1>
     
-    <ul>
-        <li> Growing the Data Web from the Existing Human Web</li>
-        <li> Keep your metadata close</li>
-        <li> Distributed Extensibility: find vocabularies, reuse them, extend them, evolve them.</li>
-        <li> Learn More: <a href="http://rdfa.info">rdfa.info</a>, <a href="http://rdfa.info/wiki">rdfa.info/wiki</a>.
+    <ul style="font-size: 1.5em;" class="incremental">
+        <li> bridging the human and data webs.</li>
+        <li> distributed extensibility: find vocabularies, reuse them, extend them, evolve them.</li>
+        <li> more about RDFa: <a href="http://rdfa.info">rdfa.info</a>, <a href="http://rdfa.info/wiki">rdfa.info/wiki</a>.
+        <li> more about ccREL: <a href="http://creativecommons.org/projects/ccrel">cc.org/projects/ccrel</a>.
     </ul>
+    <br /><br /><br />
+    <h2 class="incremental" style="font-size: 1.5em;">Questions: <a href="http://wiki.creativecommons.org/TechSummit">
+	  http://wiki.creativecommons.org/TechSummit
+	</a>
+      </h2>
     
 </div>
 
@@ -1071,17 +1103,6 @@ and make as much sense of the web data as possible</h3>
   </div>
 -->
 
-<div class="slide aluminum">
-  <div class="center-container">
-    <div class="center-content">
-      <h1>Questions?</h1>
-      <h2><a href="http://wiki.creativecommons.org/TechSummit">
-	  http://wiki.creativecommons.org/TechSummit
-	</a>
-      </h2>
-    </div>
-  </div>
-</div>
 
 </body>
 </html>
